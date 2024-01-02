@@ -1,0 +1,24 @@
+---
+layout: post
+title: Image restoration via Bregman method.
+date: 08.08.2023
+description: Comprehensive introduction to Bregman method # Add post description (optional)
+img: image13.jpg # Add image post (optional)
+---
+
+Lots of problems in engineering, computer science, especially in image science can be posed as $$\ell_1$$-regularized problems.Some examples for this as the following:
+\begin{equation}
+    \text{TV denoising}:\underset{u}{argmin}\|u\|_{BV}+\frac{\mu}{2}\|u-f\|^2_2.
+\end{equation}
+\begin{equation}
+\text{Basis pursuit/compressed sensing}:\underset{u}{argmin}\|u\|_1+\frac{\mu}{2}\|Au-f\|^2_2.
+\end{equation}
+
+
+The functional in first equation called Rudin-Osher-Fatemi functional which is one of the most influential research in image denoising. Despite looks simple, it was proved to be difficult to minimize. Part of the difficulties is that it contains the non-differentiable $$\ell_1$$ norm of gradient $$\|u\|_{BV}=\|\nabla u\|_1$$.
+
+The problem of the second equation have received a lot of attention recently because of the introduction of compressed sensing techniques which allow high resolution images and signals to be reconstructed from a small amount of data. This formulation has been shown to be useful in many areas including medical imaging.
+
+Among those algorithms which solve the $$\ell_1$$-regularized problem, Bregman methods which have long history in mathematical research areas such as optimization, inverse and ill-posed problems have been shown to possess favorable regularization properties over traditional linear iterative regularization methods. In follow report  we give a comrehensive introduction of Bregman method and its application in the area of image processing.
+
+https://drive.google.com/file/d/1PuPVhS4UzlLMfim_9jsa8j-nYzewqm2D/view?usp=share_link
