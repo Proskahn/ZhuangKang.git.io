@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "image segmentation via manifold optimization"
+title: image segmentation via manifold optimization
 date: 17.01.2023
 description: This is a introduction of how to apply manifold optimization theory to image segmentation. # Add post description (optional)
 img: WechatIMG143.jpg

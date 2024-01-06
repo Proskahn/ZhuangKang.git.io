@@ -2,29 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>image segmentation via manifold optimization - Hello, world! I'm Zhuang Kang</title>
+	<title>Is the space of closed curves complete? - Hello, world! I'm Zhuang Kang</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Hello, world! I'm Zhuang Kang" property="og:site_name">
   
-    <meta content="image segmentation via manifold optimization" property="og:title">
+    <meta content="Is the space of closed curves complete?" property="og:title">
   
   
     <meta content="article" property="og:type">
   
   
-    <meta content="This is a introduction of how to apply manifold optimization theory to image segmentation." property="og:description">
+    <meta content="Space of all closed curves could be a Riemannian manifold. With Certain metrics, this manifold is metrically complete." property="og:description">
   
   
-    <meta content="http://localhost:4000/manifold-optimization/" property="og:url">
+    <meta content="http://localhost:4000/Riemannian-manifold-of-object-border/" property="og:url">
   
   
-    <meta content="2023-01-17T00:00:00+01:00" property="article:published_time">
+    <meta content="2022-07-04T00:00:00+02:00" property="article:published_time">
     <meta content="http://localhost:4000/about/" property="article:author">
   
   
-    <meta content="http://localhost:4000/ZhuangKang.git.io/assets/img/WechatIMG143.jpg" property="og:image">
+    <meta content="http://localhost:4000/ZhuangKang.git.io/assets/img/WechatIMG151.jpg" property="og:image">
   
   
     
@@ -35,19 +35,19 @@
 
 
   
-    <meta name="twitter:title" content="image segmentation via manifold optimization">
+    <meta name="twitter:title" content="Is the space of closed curves complete?">
   
   
-    <meta name="twitter:url" content="http://localhost:4000/manifold-optimization/">
+    <meta name="twitter:url" content="http://localhost:4000/Riemannian-manifold-of-object-border/">
   
   
-    <meta name="twitter:description" content="This is a introduction of how to apply manifold optimization theory to image segmentation.">
+    <meta name="twitter:description" content="Space of all closed curves could be a Riemannian manifold. With Certain metrics, this manifold is metrically complete.">
   
   
-    <meta name="twitter:image:src" content="http://localhost:4000/ZhuangKang.git.io/assets/img/WechatIMG143.jpg">
+    <meta name="twitter:image:src" content="http://localhost:4000/ZhuangKang.git.io/assets/img/WechatIMG151.jpg">
   
 
-	<meta name="description" content="This is a introduction of how to apply manifold optimization theory to image segmentation.">
+	<meta name="description" content="Space of all closed curves could be a Riemannian manifold. With Certain metrics, this manifold is metrically complete.">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
@@ -116,38 +116,21 @@
     
     <div class="page-cover-image">
       <figure>
-        <img class="page-image" src=/ZhuangKang.git.io/assets/img/WechatIMG143.jpg alt="image segmentation via manifold optimization">
+        <img class="page-image" src=/ZhuangKang.git.io/assets/img/WechatIMG151.jpg alt="Is the space of closed curves complete?">
         
       </figure>
     </div> <!-- End Page Cover Image -->
     
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">image segmentation via manifold optimization</h1>
-        <div class="page-date"><span>2023, Jan 17&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <h1 class="page-title">Is the space of closed curves complete?</h1>
+        <div class="page-date"><span>2022, Jul 04&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      <p>Active contour models, have been widely used for segmentation problem, aim to extract the boundary of an area contained in the image. The main idea is minimizing an energy defined on curves, that the minima will be closed to the desired boundary.</p>
+      <p>In the blog “image segmentation via manifold optimization” we consider the space of all closed curves to be a Riemannian
+ manifold. To minimize function on manifold via optimization mehtod, the geodescic completeness of manifold is the primary
+  requirement. In this report we discuss the completeness properties of this Riemannian manifold.</p>
 
-<p>Let \(I\) denotes the intensity of an image on a domain \(\Omega \subset \mathbb{R}^2\). Active contour model is defined as a functional \(E_{snake}\) applied to a curve in the image domain \(\Omega\). For example, 
-\begin{equation}\label{eq1}
-E_{snake}=\int_0^1E(v(s))=\int_0^1E_{int}(v(s))+\int_0^1E_{image}(v(s))+\int_0^1E_{con}(v(s)).
-\end{equation}</p>
-
-<p>\(E_{int}\): Internal energy of the spline due to tension and rigidity.</p>
-
-<p>\begin{equation}\label{eq2}
-E_{int}=\alpha(s)\lvert dv/ds\rvert^2+\beta(s) \lvert d^2v/ds^2 \rvert.
-\end{equation}</p>
-
-<p>\(E_{image}\): Energy comes from image force and higher-level image understand process.
-\begin{equation}
-E_{image}=-\lvert \nabla I(v(s))\rvert^2.
-\end{equation}
-\(E_{con}\): External constrain force.</p>
-
-<p>Minimization of the energy is naturally an optimization problem on the space of closed curves. In the following report we consider a specific way to define a Riemannian manifold structure(infinite-dimensional) on closed curves and explore the possibilities to do optimization on this manifold.</p>
-
-<p>https://drive.google.com/file/d/1FEOTzcrGcS5kZiQYdV0L2bUReKfRr77A/view?usp=share_link</p>
+<p>https://drive.google.com/file/d/19x6048naO7b3WkZdcUeX9mXIZqM3TtoW/view?usp=share_link</p>
 
       <div class="page-footer">
         <div class="page-share">

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Computed tomography and Bregman method.
+title: Computed tomography and Bregman method
 date: 08.09.2023
 description: This report focus on computed tomography. # Add post description (optional)
 img: image4.jpg # Add image post (optional)
