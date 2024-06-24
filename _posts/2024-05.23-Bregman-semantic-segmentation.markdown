@@ -1,0 +1,27 @@
+---
+layout: post
+title: U-Net Segmentation with Bregman method
+date: 08.09.2023
+description: This report focus on computed tomography. # Add post description (optional)
+img: demo-3.png # Add image post (optional)
+---
+
+The Bregman method was first proposed by S. Osher, et al to solve the problem of the form 
+\begin{equation}
+    \underset{\theta \in X}{\min} J(\theta) + L(\theta)
+\end{equation}
+in image restoration where $J$ and $L$ are both convex. Bungert,Leon, et al then extended it to neural networks.
+
+\begin{algorithm}
+\caption{Bregman method}
+\begin{algorithmic}[1]
+\Require $J, L, \tau$
+\State Initialize: $k=0, \theta^0=0, p^0=0$
+\While{not converged}
+\State $\theta^{k+1} \gets \underset{\theta \in X}{\arg\min} D^{p^k}_J(\theta, \theta^k) +\tau L(\theta)$
+\State $p^{k+1} \gets p^k - \tau \nabla L(\theta^{k+1})$
+\State $k \gets k+1$
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+
