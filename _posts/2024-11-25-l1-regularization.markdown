@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Does L1-Regularization Really Promote Sparsity?
+title: Does L1-regularization really promote sparsity?
 date: 24.11.2024
 description: Does $\ell_1$ regularization really reduce the number of non-zero parameters? My answer is, **I do not think so.**
 img: Figure5.png
