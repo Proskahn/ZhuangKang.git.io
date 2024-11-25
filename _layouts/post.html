@@ -24,16 +24,16 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
-      <div class="page-footer">
+      <!-- <div class="page-footer">
         <div class="page-share">
         </div>
         <div class="page-tag">
           {% for tag in page.tags %}
             <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
-          {% endfor %}
+          {% endfor %} -->
         </div>
       </div>
       {% include disqus.html %}
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
-</article> <!-- End Article Page -->
+</article> End Article Page
