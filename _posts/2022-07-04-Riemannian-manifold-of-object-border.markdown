@@ -10,4 +10,6 @@ In the blog "image segmentation via manifold optimization" we consider the space
  manifold. To minimize function on manifold via optimization mehtod, the geodescic completeness of manifold is the primary
   requirement. In this report we discuss the completeness properties of this Riemannian manifold.
 
+Click the link below to read the full article.
+
   https://drive.google.com/file/d/19x6048naO7b3WkZdcUeX9mXIZqM3TtoW/view?usp=share_link

@@ -16,4 +16,6 @@ Recent years have witnessed a resurgence of interest in optimization- and variat
 
 In parallel with the development of reconstruction models, a multitude of novel algorithms have been proposed to solve the optimization problem. Among those algorithms Bregman method is recognized for its rapid convergence speed and proficiency in non-smooth optimization. In the following reoprt we discuss the application of Bregman method in computed tomography.
 
+Click the link below to read the full article.
+
 https://drive.google.com/file/d/10bOBWi_OokC1mFp0x_yiHud2DALn79ub/view?usp=share_link

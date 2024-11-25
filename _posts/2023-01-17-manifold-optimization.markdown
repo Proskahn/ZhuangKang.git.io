@@ -28,4 +28,6 @@ $$E_{con}$$: External constrain force.
 
 Minimization of the energy is naturally an optimization problem on the space of closed curves. In the following report we consider a specific way to define a Riemannian manifold structure(infinite-dimensional) on closed curves and explore the possibilities to do optimization on this manifold.
 
+Click the link below to read the full article.
+
 https://drive.google.com/file/d/1FEOTzcrGcS5kZiQYdV0L2bUReKfRr77A/view?usp=share_link
