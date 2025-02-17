@@ -11,9 +11,9 @@ layout: main
     <div class="page-cover-image">
       <figure>
         <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-        {% if page.fig-caption %}
+        <!-- {% if page.fig-caption %}
           <figcaption>{{page.fig-caption}}</figcaption>
-        {% endif %}
+        {% endif %} -->
       </figure>
     </div> <!-- End Page Cover Image -->
     {% else %}
@@ -33,7 +33,7 @@ layout: main
           {% endfor %} -->
         </div>
       </div>
-      {% include disqus.html %}
+      <!-- {% include disqus.html %} -->
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> End Article Page
