@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Bregman Learning
+title: Bregman Learning(Thesis)
 date: 30.09.2024
 description: How to reduce the number of active parameters all along the training?
 img: Figure5.png
@@ -14,4 +14,4 @@ A question is, how Bregman iteration behaves in neural network training?Theoreti
 
 Click the link below to read the full article.
 
-https://drive.google.com/file/d/18uFCdqlkZTxKQIStXgZW5Rs-bZ1stlDR/view?usp=share_link
+https://drive.google.com/file/d/1TMxS9mZLM1OW4AWvKIVFT9cLLTyAhmi8/view?usp=share_link
