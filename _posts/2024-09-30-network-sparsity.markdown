@@ -4,7 +4,7 @@ layout: post
 title: Bregman Learning(Thesis)
 date: 30.09.2024
 description: How to reduce the number of active parameters all along the training?
-img: Figure5.png
+img: Figure6.png
 ---
 
 Bregman method starts from a smooth initial condition (often zero) and progressively recovers large-scale features first, followed by finer details. 
