@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Is the space of closed curves complete?
+title: Where does the iteration go?
 date: 04.07.2022
 description: Space of all closed curves could be an infinite dimensional Riemannian manifold. With Certain metrics,
  this manifold is metrically complete. # Add post description (optional)
