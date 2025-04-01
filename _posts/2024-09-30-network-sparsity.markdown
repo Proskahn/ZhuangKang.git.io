@@ -13,6 +13,5 @@ A question is, how Bregman iteration behaves in neural network training?Theoreti
 
 Click the link below to read the full article.
 
-https://drive.google.com/file/d/1Ud96nPTBach27hsNbTcfhazSfFvMX8jf/view?usp=share_link
-
+https://drive.google.com/file/d/1Tv8EtsaJxrdHHO1PUnJ_JrWxNYWngIU6/view?usp=sharing
 
